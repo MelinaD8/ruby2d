@@ -64,6 +64,7 @@ void FixedUpdate()
             }
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
+        //UIHealthBar.instance.SetValue(currenthealth/ (float)maxHealth);
     
         }     
 }
