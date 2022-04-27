@@ -1,4 +1,4 @@
-using System.Collections;
+  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,7 +17,7 @@ public class RubyController : MonoBehaviour
      float invincibleTimer;
      
     Rigidbody2D rigidbody2d;
-    float vertical;
+    float vertical;  
     float horizontal;
     Vector2 lookDirection = new Vector2(1,0);
 
@@ -42,16 +42,25 @@ public class RubyController : MonoBehaviour
             if (invincibleTimer < 0)
                 isInvincible = false;
         }
+
+
         if (Input.GetKeyDown(KeyCode.X))
 {
     RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
     if (hit.collider != null)
     {
         Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
+
+        NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
+        if (character != null);
     }
+    {
+         character.DisplayDialog();
+}
 }
     }
     
+
 void FixedUpdate()
     {
         Vector2 position = rigidbody2d.position;
