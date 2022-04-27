@@ -21,12 +21,17 @@ public class RubyController : MonoBehaviour
     float horizontal;
     Vector2 lookDirection = new Vector2(1,0);
 
+    public void PlaySound(AudioClip clip)
+{
+    audioSource.PlayOneShot(clip);
+}
+
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = 3;
-
+        audioSource= GetComponent<audioSource>
     }
 
     // Update is called once per frame
@@ -86,4 +91,7 @@ void FixedUpdate()
     
         }     
 }
-    
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }
