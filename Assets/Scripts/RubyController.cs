@@ -31,7 +31,7 @@ public class RubyController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = 3;
-        audioSource= GetComponent<audioSource>
+        audioSource= GetComponent<audioSource>;
     }
 
     // Update is called once per frame
