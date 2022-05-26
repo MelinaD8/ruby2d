@@ -1,32 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class NPC : MonoBehaviour
+/// <summary>
+/// This class handle Non player character. It store their lines of dialogues and the portrait to display.
+/// The player controller will call the Advance function when the player press the interact button in front of the NPC
+/// The advance function will return false as long as there is new dialogue line, but return true once finished.
+/// (Used by Player Controller to block movement until the dialogue is finished)
+/// </summary>
+public class NonPlayerCharacter : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float displayTime = 4.0f;
+    public GameObject dialogBox;
+    float timerDisplay;
+    
     void Start()
     {
         dialogBox.SetActive(false);
         timerDisplay = -1.0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (timerDisplay >= 0)
-    {
-        timerDisplay -= Time.deltaTime;
-        if (timerDisplay < 0)
         {
-            dialogBox.SetActive(false);
+            timerDisplay -= Time.deltaTime;
+            if (timerDisplay < 0)
+            {
+                dialogBox.SetActive(false);
+            }
         }
     }
+    
+    public void DisplayDialog()
+    {
+        timerDisplay = displayTime;
+        dialogBox.SetActive(true);
     }
-}
-
-  public void DisplayDialog()
-{
-    timerDisplay = displayTime;
-    dialogBox.SetActive(true);
 }

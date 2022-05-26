@@ -1,33 +1,9 @@
 fileFormatVersion: 2
-guid: 87d9eec357f7dc14286677f38287ad9e
+guid: 90b991e8c736bb2459f3b15a320a944c
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -1363362949803319420
-    second: TreeLittle_0
-  - first:
-      213: -7539065270799099335
-    second: TreeLittle_1
-  - first:
-      213: -9025444087367045730
-    second: TreeLittle_2
-  - first:
-      213: -632505567986179936
-    second: TreeLittle_3
-  - first:
-      213: -5020787826299687027
-    second: TreeLittle_4
-  - first:
-      213: 3579976564458761044
-    second: TreeLittle_5
-  - first:
-      213: 5352488657568570839
-    second: TreeLittle_6
-  - first:
-      213: -2403926871178438689
-    second: TreeLittle_7
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -47,7 +23,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -56,21 +31,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  alignment: 9
+  spritePivot: {x: 0.16052154, y: 0.023482278}
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -79,17 +54,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -98,10 +69,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -110,194 +80,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: TreeLittle_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 108
-        width: 56.666668
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48f5b0dde9c541de0800000000000000
-      internalID: -1363362949803319420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeLittle_1
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 108
-        width: 56.666668
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93a1983741cdf5790800000000000000
-      internalID: -7539065270799099335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeLittle_2
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 108
-        width: 56.666668
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9d6650eb6e2fb280800000000000000
-      internalID: -9025444087367045730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeLittle_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 54
-        width: 56.666668
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a02abd7983e837f0800000000000000
-      internalID: -632505567986179936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeLittle_4
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 54
-        width: 56.666668
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8f2dc0c214925ab0800000000000000
-      internalID: -5020787826299687027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeLittle_5
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 54
-        width: 56.666668
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45ba9c4c7b1aea130800000000000000
-      internalID: 3579976564458761044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeLittle_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 56.666668
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dd9eaa431cd74a40800000000000000
-      internalID: 5352488657568570839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeLittle_7
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 0
-        width: 56.666668
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd794694f3983aed0800000000000000
-      internalID: -2403926871178438689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a90d87a6473dfb142957762dc2a0d6ec
+    spriteID: f5b8eed159dded24f84ca63382ded2ad
     internalID: 0
     vertices: []
     indices: 
