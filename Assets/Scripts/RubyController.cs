@@ -55,6 +55,10 @@ public class RubyController : MonoBehaviour
         
         // ==== AUDIO =====
         audioSource = GetComponent<AudioSource>();
+
+        currentHealth = 3;
+        audioSource= GetComponent<audioSource>;
+
     }
 
     void Update()
